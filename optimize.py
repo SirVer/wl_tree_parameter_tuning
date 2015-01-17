@@ -64,16 +64,32 @@ def parameters_to_dictionary(parameters):
 
 def main():
     parameters = np.empty(len(TREES) * 4)
+    bounds = []
     for idx, tree_name in enumerate(TREES):
         parameters[idx * 4 + 0] = TREES[tree_name]['preferred_fertility']
+        bounds.append((0, 1))
+
         parameters[idx * 4 + 1] = TREES[tree_name]['preferred_humidity']
+        bounds.append((0, 1))
+
         parameters[idx * 4 + 2] = TREES[tree_name]['preferred_temperature']
+        # freezing cold to very hot
+        bounds.append((223, 343.15))
+
         parameters[idx * 4 + 3] = TREES[tree_name]['pickiness']
+        bounds.append((0, 1))
 
     def minimize(params):
         return difference(parameters_to_dictionary(params))
 
-    final = scipy.optimize.fmin(minimize, parameters)
+    # final = scipy.optimize.fmin(minimize, parameters)
+    # final = scipy.optimize.fmin_l_bfgs_b(
+            # minimize,
+            # parameters,
+            # approx_grad = True,
+            # bounds = bounds)[0]
+    final = scipy.optimize.differential_evolution(
+            minimize, bounds).x
     final_dictionary = parameters_to_dictionary(final)
     json.dump(final_dictionary, open("final_parameters.json", "w"), indent=4)
 
