@@ -1,0 +1,155 @@
+{
+   "alder": {
+      "preferred_temperature": 293,
+      "preferred_humidity": 0.6,
+      "preferred_fertility": 0.7,
+      "pickiness": 0.5
+   },
+
+   "aspen": {
+      "preferred_temperature": 293,
+      "preferred_humidity": 0.6,
+      "preferred_fertility": 0.7,
+      "pickiness": 0.5
+   },
+
+   "beech": {
+      "preferred_temperature": 288,
+      "preferred_humidity": 0.65,
+      "preferred_fertility": 0.5,
+      "pickiness": 0.6
+   },
+
+   "birch": {
+      "preferred_temperature": 298,
+      "preferred_humidity": 0.6,
+      "preferred_fertility": 0.75,
+      "pickiness": 0.2
+   },
+
+   "cirrus": {
+      "preferred_temperature": 308,
+      "preferred_humidity": 0.22,
+      "preferred_fertility": 0.8,
+      "pickiness": 0.5
+   },
+
+   "larch": {
+      "preferred_temperature": 283,
+      "preferred_humidity": 0.6,
+      "preferred_fertility": 0.5,
+      "pickiness": 0
+   },
+
+   "liana": {
+      "preferred_temperature": 308,
+      "preferred_humidity": 0.24,
+      "preferred_fertility": 0.8,
+      "pickiness": 0.5
+   },
+
+   "maple": {
+      "preferred_temperature": 293,
+      "preferred_humidity": 0.6,
+      "preferred_fertility": 0.45,
+      "pickiness": 0.5
+   },
+
+   "mushroom_dark": {
+      "preferred_temperature": 313,
+      "preferred_humidity": 0.25,
+      "preferred_fertility": 0.9,
+      "pickiness": 0.65
+   },
+
+   "mushroom_green": {
+      "preferred_temperature": 310.5,
+      "preferred_humidity": 0.225,
+      "preferred_fertility": 0.85,
+      "pickiness": 0.65
+   },
+
+   "mushroom_red": {
+      "preferred_temperature": 308,
+      "preferred_humidity": 0.2,
+      "preferred_fertility": 0.8,
+      "pickiness": 0.65
+   },
+
+   "oak": {
+      "preferred_temperature": 293,
+      "preferred_humidity": 0.8,
+      "preferred_fertility": 0.75,
+      "pickiness": 0.7
+   },
+
+   "palm_borassus": {
+      "preferred_temperature": 318,
+      "preferred_humidity": 0.5,
+      "preferred_fertility": 0.7,
+      "pickiness": 0.8
+   },
+
+   "palm_coconut": {
+      "preferred_temperature": 313,
+      "preferred_humidity": 0.2,
+      "preferred_fertility": 0.1,
+      "pickiness": 0.8
+   },
+
+   "palm_date": {
+      "preferred_temperature": 318,
+      "preferred_humidity": 0.3,
+      "preferred_fertility": 0.3,
+      "pickiness": 0.8
+   },
+
+   "palm_oil": {
+      "preferred_temperature": 308,
+      "preferred_humidity": 0.6,
+      "preferred_fertility": 0.65,
+      "pickiness": 0.8
+   },
+
+   "palm_roystonea": {
+      "preferred_temperature": 313,
+      "preferred_humidity": 0.6,
+      "preferred_fertility": 0.55,
+      "pickiness": 0.7
+   },
+
+   "rowan": {
+      "preferred_temperature": 298,
+      "preferred_humidity": 0.43,
+      "preferred_fertility": 0.85,
+      "pickiness": 0.5
+   },
+
+   "spruce": {
+      "preferred_temperature": 278,
+      "preferred_humidity": 0.6,
+      "preferred_fertility": 0.45,
+      "pickiness": 0
+   },
+
+   "twine": {
+      "preferred_temperature": 308,
+      "preferred_humidity": 0.26,
+      "preferred_fertility": 0.8,
+      "pickiness": 0.5
+   },
+
+   "umbrella_green": {
+      "preferred_temperature": 308,
+      "preferred_humidity": 0.27,
+      "preferred_fertility": 0.6,
+      "pickiness": 0.7
+   },
+
+   "umbrella_red": {
+      "preferred_temperature": 308,
+      "preferred_humidity": 0.27,
+      "preferred_fertility": 0.6,
+      "pickiness": 0.7
+   }
+}

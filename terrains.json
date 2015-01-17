@@ -1,0 +1,369 @@
+{
+   "wiese1": {
+      "temperature": 293,
+      "humidity": 0.7,
+      "fertility": 0.6
+   },
+
+   "wiese2": {
+      "temperature": 293,
+      "humidity": 0.76,
+      "fertility": 0.7
+   },
+
+   "wiese3": {
+      "temperature": 293,
+      "humidity": 0.82,
+      "fertility": 0.8
+   },
+
+   "wiese4": {
+      "temperature": 293,
+      "humidity": 0.76,
+      "fertility": 0.7
+   },
+
+   "steppe": {
+      "temperature": 303,
+      "humidity": 0.4,
+      "fertility": 0.9
+   },
+
+   "steppe_kahl": {
+      "temperature": 308,
+      "humidity": 0.35,
+      "fertility": 0.1
+   },
+
+   "bergwiese": {
+      "temperature": 288,
+      "humidity": 0.3,
+      "fertility": 0.4
+   },
+
+   "berg1": {
+      "temperature": 288,
+      "humidity": 0.5,
+      "fertility": 0.3
+   },
+
+   "berg2": {
+      "temperature": 288,
+      "humidity": 0.5,
+      "fertility": 0.3
+   },
+
+   "berg3": {
+      "temperature": 283,
+      "humidity": 0.5,
+      "fertility": 0.3
+   },
+
+   "berg4": {
+      "temperature": 283,
+      "humidity": 0.5,
+      "fertility": 0.3
+   },
+
+   "sumpf": {
+      "temperature": 289.65,
+      "humidity": 0.66,
+      "fertility": 0.9
+   },
+
+   "strand": {
+      "temperature": 298,
+      "humidity": 0.3,
+      "fertility": 0.1
+   },
+
+   "schnee": {
+      "temperature": 273,
+      "humidity": 1,
+      "fertility": 0
+   },
+
+   "lava": {
+      "temperature": 1273,
+      "humidity": 0,
+      "fertility": 0.99
+   },
+
+   "wasser": {
+      "temperature": 293,
+      "humidity": 1,
+      "fertility": 0.25
+   },
+
+   "ashes": {
+      "temperature": 310,
+      "humidity": 0.23,
+      "fertility": 0.8
+   },
+
+   "ashes2": {
+      "temperature": 310,
+      "humidity": 0.23,
+      "fertility": 0.8
+   },
+
+   "hardground1": {
+      "temperature": 310,
+      "humidity": 0.25,
+      "fertility": 0.5
+   },
+
+   "hardground2": {
+      "temperature": 310,
+      "humidity": 0.225,
+      "fertility": 0.85
+   },
+
+   "hardground3": {
+      "temperature": 310,
+      "humidity": 0.2,
+      "fertility": 0.9
+   },
+
+   "hardground4": {
+      "temperature": 310.5,
+      "humidity": 0.225,
+      "fertility": 0.85
+   },
+
+   "hardlava": {
+      "temperature": 323,
+      "humidity": 0.1,
+      "fertility": 0.5
+   },
+
+   "wasteland_mountain1": {
+      "temperature": 308,
+      "humidity": 0.3,
+      "fertility": 0.6
+   },
+
+   "wasteland_mountain2": {
+      "temperature": 308,
+      "humidity": 0.3,
+      "fertility": 0.6
+   },
+
+   "wasteland_mountain3": {
+      "temperature": 308,
+      "humidity": 0.3,
+      "fertility": 0.6
+   },
+
+   "wasteland_mountain4": {
+      "temperature": 308,
+      "humidity": 0.3,
+      "fertility": 0.6
+   },
+
+   "wasteland_beach": {
+      "temperature": 308,
+      "humidity": 0.2,
+      "fertility": 0.7
+   },
+
+   "lava-stone1": {
+      "temperature": 1273,
+      "humidity": 0,
+      "fertility": 0.99
+   },
+
+   "lava-stone2": {
+      "temperature": 1273,
+      "humidity": 0,
+      "fertility": 0.99
+   },
+
+   "wasteland_water": {
+      "temperature": 313,
+      "humidity": 1,
+      "fertility": 0.8
+   },
+
+
+   "tundra": {
+      "temperature": 273,
+      "humidity": 0.7,
+      "fertility": 0.4
+   },
+
+   "tundra2": {
+      "temperature": 273,
+      "humidity": 0.7,
+      "fertility": 0.4
+   },
+
+   "tundra3": {
+      "temperature": 273,
+      "humidity": 0.7,
+      "fertility": 0.4
+   },
+
+   "tundra_taiga": {
+      "temperature": 278,
+      "humidity": 0.8,
+      "fertility": 0.45
+   },
+
+   "taiga": {
+      "temperature": 283,
+      "humidity": 0.9,
+      "fertility": 0.45
+   },
+
+   "snow": {
+      "temperature": 263,
+      "humidity": 1,
+      "fertility": 0
+   },
+
+   "winter_mountain1": {
+      "temperature": 233,
+      "humidity": 0.7,
+      "fertility": 0.4
+   },
+
+   "winter_mountain2": {
+      "temperature": 233,
+      "humidity": 0.7,
+      "fertility": 0.4
+   },
+
+   "winter_mountain3": {
+      "temperature": 233,
+      "humidity": 0.7,
+      "fertility": 0.4
+   },
+
+   "winter_mountain4": {
+      "temperature": 233,
+      "humidity": 0.7,
+      "fertility": 0.4
+   },
+
+   "ice": {
+      "temperature": 243,
+      "humidity": 0,
+      "fertility": 0
+   },
+
+   "winter_beach": {
+      "temperature": 258,
+      "humidity": 0.6,
+      "fertility": 0.3
+   },
+
+   "ice_floes": {
+      "temperature": 268,
+      "humidity": 1,
+      "fertility": 0.4
+   },
+
+   "ice_floes2": {
+      "temperature": 268,
+      "humidity": 1,
+      "fertility": 0.4
+   },
+
+   "winter_water": {
+      "temperature": 273,
+      "humidity": 1,
+      "fertility": 0.4
+   },
+
+
+   "desert4": {
+      "temperature": 318,
+      "humidity": 0.3,
+      "fertility": 0.6
+   },
+
+   "drysoil": {
+      "temperature": 318,
+      "humidity": 0.1,
+      "fertility": 0.2
+   },
+
+   "desert_steppe": {
+      "temperature": 318,
+      "humidity": 0.58,
+      "fertility": 0.62
+   },
+
+   "meadow": {
+      "temperature": 313,
+      "humidity": 0.58,
+      "fertility": 0.62
+   },
+
+   "mountainmeadow": {
+      "temperature": 313,
+      "humidity": 0.3,
+      "fertility": 0.3
+   },
+
+   "highmountainmeadow": {
+      "temperature": 303,
+      "humidity": 0.2,
+      "fertility": 0.2
+   },
+
+   "mountain1": {
+      "temperature": 303,
+      "humidity": 0.2,
+      "fertility": 0.2
+   },
+
+   "mountain2": {
+      "temperature": 303,
+      "humidity": 0.2,
+      "fertility": 0.2
+   },
+
+   "mountain3": {
+      "temperature": 303,
+      "humidity": 0.2,
+      "fertility": 0.2
+   },
+
+   "mountain4": {
+      "temperature": 303,
+      "humidity": 0.2,
+      "fertility": 0.2
+   },
+
+   "desert1": {
+      "temperature": 318,
+      "humidity": 0.25,
+      "fertility": 0.3
+   },
+
+   "desert2": {
+      "temperature": 318,
+      "humidity": 0.2,
+      "fertility": 0.3
+   },
+
+   "desert3": {
+      "temperature": 328,
+      "humidity": 0.3,
+      "fertility": 0.05
+   },
+
+   "desert_beach": {
+      "temperature": 313,
+      "humidity": 0.2,
+      "fertility": 0.1
+   },
+
+   "desert_water": {
+      "temperature": 308,
+      "humidity": 1,
+      "fertility": 0.99
+   }
+}
