@@ -1,0 +1,134 @@
+{
+    "palm_borassus": {
+        "pickiness": 0.20863977060259281, 
+        "preferred_temperature": 316.80346924553027, 
+        "preferred_fertility": 0.61357327995957489, 
+        "preferred_humidity": 0.5746892336062468
+    }, 
+    "umbrella_green": {
+        "pickiness": 0.4668949526418863, 
+        "preferred_temperature": 308.35114946757039, 
+        "preferred_fertility": 0.59887243034086945, 
+        "preferred_humidity": 0.6000959718000386
+    }, 
+    "spruce": {
+        "pickiness": 0.45479824721290968, 
+        "preferred_temperature": 284.62936592532606, 
+        "preferred_fertility": 0.61838024864363539, 
+        "preferred_humidity": 0.41421686023915666
+    }, 
+    "palm_roystonea": {
+        "pickiness": 0.52492378995489908, 
+        "preferred_temperature": 311.91551373490893, 
+        "preferred_fertility": 0.61808942084918672, 
+        "preferred_humidity": 0.50982306673555
+    }, 
+    "maple": {
+        "pickiness": 0.38845027420758543, 
+        "preferred_temperature": 291.39461669992306, 
+        "preferred_fertility": 0.61730946021554067, 
+        "preferred_humidity": 0.4291175476677796
+    }, 
+    "mushroom_dark": {
+        "pickiness": 0.19918639625501841, 
+        "preferred_temperature": 311.93822272127233, 
+        "preferred_fertility": 0.59979673334470174, 
+        "preferred_humidity": 0.45679193123921052
+    }, 
+    "liana": {
+        "pickiness": 0.44354521596751573, 
+        "preferred_temperature": 308.51690519146285, 
+        "preferred_fertility": 0.59295303832207347, 
+        "preferred_humidity": 0.51734578229619665
+    }, 
+    "twine": {
+        "pickiness": 0.067735006242694282, 
+        "preferred_temperature": 309.58355932352481, 
+        "preferred_fertility": 0.59535759025798407, 
+        "preferred_humidity": 0.88847664258202386
+    }, 
+    "oak": {
+        "pickiness": 0.30509493318438358, 
+        "preferred_temperature": 288.89505365326539, 
+        "preferred_fertility": 0.62433724069847174, 
+        "preferred_humidity": 0.55931915252604147
+    }, 
+    "palm_coconut": {
+        "pickiness": 0.0, 
+        "preferred_temperature": 313.12654652142584, 
+        "preferred_fertility": 0.61268373749338589, 
+        "preferred_humidity": 0.50782319749611926
+    }, 
+    "rowan": {
+        "pickiness": 0.0, 
+        "preferred_temperature": 297.40378892046158, 
+        "preferred_fertility": 0.62274739221936404, 
+        "preferred_humidity": 0.54816646965602867
+    }, 
+    "palm_date": {
+        "pickiness": 0.18237955963243008, 
+        "preferred_temperature": 316.93126742589328, 
+        "preferred_fertility": 0.61346996942362164, 
+        "preferred_humidity": 0.57178582374845344
+    }, 
+    "aspen": {
+        "pickiness": 0.44984606446003106, 
+        "preferred_temperature": 290.55544524320931, 
+        "preferred_fertility": 0.62222016590068729, 
+        "preferred_humidity": 0.59561726988061026
+    }, 
+    "palm_oil": {
+        "pickiness": 0.43374078804283739, 
+        "preferred_temperature": 309.0392595542412, 
+        "preferred_fertility": 0.62079110796467685, 
+        "preferred_humidity": 0.64929385786563165
+    }, 
+    "mushroom_green": {
+        "pickiness": 0.49598669854920824, 
+        "preferred_temperature": 310.38550068242529, 
+        "preferred_fertility": 0.59904749385553491, 
+        "preferred_humidity": 0.61351698580439906
+    }, 
+    "alder": {
+        "pickiness": 0.86580725010436721, 
+        "preferred_temperature": 292.14881385925605, 
+        "preferred_fertility": 0.60620742662002625, 
+        "preferred_humidity": 0.43727584937233061
+    }, 
+    "mushroom_red": {
+        "pickiness": 0.3742029364797142, 
+        "preferred_temperature": 307.28515140466851, 
+        "preferred_fertility": 0.59841548590746629, 
+        "preferred_humidity": 0.83199372832197571
+    }, 
+    "birch": {
+        "pickiness": 0.51347374424315639, 
+        "preferred_temperature": 291.44961360955193, 
+        "preferred_fertility": 0.61895186892371656, 
+        "preferred_humidity": 0.4163282142136166
+    }, 
+    "beech": {
+        "pickiness": 0.1001942381020319, 
+        "preferred_temperature": 291.92139262314373, 
+        "preferred_fertility": 0.62513722924369286, 
+        "preferred_humidity": 0.48016700674029145
+    }, 
+    "umbrella_red": {
+        "pickiness": 0.72235733271918257, 
+        "preferred_temperature": 309.31588729290274, 
+        "preferred_fertility": 0.59698967286831106, 
+        "preferred_humidity": 0.69523265484598595
+    }, 
+    "larch": {
+        "pickiness": 0.0, 
+        "preferred_temperature": 293.13111996812063, 
+        "preferred_fertility": 0.62325608280140987, 
+        "preferred_humidity": 0.53692512749104759
+    }, 
+    "cirrus": {
+        "pickiness": 0.51952048706726595, 
+        "preferred_temperature": 308.06974528147379, 
+        "preferred_fertility": 0.59851288754883469, 
+        "preferred_humidity": 0.62314578356245109
+    }
+}

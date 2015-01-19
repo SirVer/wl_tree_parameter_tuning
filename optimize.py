@@ -20,80 +20,142 @@ TREES = json.load(open('./trees.json', 'r'))
 
 pow2 = lambda x: x * x
 
-def probability_to_grow(terrain, tree):
+def probability_to_grow(weights, terrain, tree):
     """This reproduces the model from terrain_affinity.cc."""
-    sigma_fertility = (1. - tree['pickiness']) * 0.25 + 1e-2
-    sigma_humidity = (1. - tree['pickiness']) * 0.25 + 1e-2
-    sigma_temperature = (1. - tree['pickiness']) * 12.5 + 1e-1
+    sigma_fertility = (1. - tree['pickiness']) * weights[0] + 1e-2
+    sigma_humidity = (1. - tree['pickiness']) * weights[1] + 1e-2
+    sigma_temperature = (1. - tree['pickiness']) * weights[2] + 1e-1
 
-    pure_gauss = math.exp(
+    return math.exp(
         -pow2(tree['preferred_fertility'] - terrain['fertility']) / (2 * pow2(sigma_fertility)) -
         pow2(tree['preferred_humidity'] - terrain['humidity']) / (2 * pow2(sigma_humidity)) -
         pow2(tree['preferred_temperature'] - terrain['temperature']) / (2 * pow2(sigma_temperature)))
 
-    advanced_gauss = pure_gauss * 1.1 + 0.05
-    if advanced_gauss > 0.95:
-        advanced_gauss = 0.95
-    return advanced_gauss
-
-def difference(trees, verbose=False):
-    """Returns the squared differences of the probabilities in the TRUTH table
-    and the calculated parameters using the parameters in 'trees' """
+def difference(weights, terrains, trees, verbose=False):
+    """Returns the squared differences of the probabilities in the
+    TRUTH table and the calculated parameters using the parameters
+    in 'terrains' and 'trees'. """
     squared_diffs = 0.
+    max_diff, min_diff = -100, 100
     for tree_name, terrains_for_tree in TRUTH.items():
         for terrain_name, b18_probability in terrains_for_tree.items():
-            p = probability_to_grow(TERRAINS[terrain_name], trees[tree_name])
+            p = probability_to_grow(weights, terrains[terrain_name], trees[tree_name])
             diff = p - b18_probability
             if verbose:
+                max_diff = max(max_diff, diff)
+                min_diff = min(min_diff, diff)
                 print "%s %s %.2f %.2f (%.2f)" % (
                         tree_name, terrain_name, b18_probability, p, diff)
             squared_diffs += pow2(diff)
+    if verbose:
+        print "%.2f %.2f" % (min_diff, max_diff)
     print "squared_diffs: %r" % (squared_diffs)
     return squared_diffs
 
 def parameters_to_dictionary(parameters):
-    rv = {}
-    for idx, tree_name in enumerate(TREES):
+    trees = {}
+    terrains = {}
+    weights = parameters[:3]
+    idx = 3
+    for terrain_name in sorted(TERRAINS.keys()):
         d = {}
-        d['preferred_fertility'] = parameters[idx * 4 + 0]
-        d['preferred_humidity'] = parameters[idx * 4 + 1]
-        d['preferred_temperature'] = parameters[idx * 4 + 2]
-        d['pickiness'] = parameters[idx * 4 + 3]
-        rv[tree_name] = d
-    return rv
+        d['fertility'] = parameters[idx]
+        idx += 1
+        d['humidity'] = parameters[idx]
+        idx += 1
+        d['temperature'] = parameters[idx]
+        idx += 1
+        terrains[terrain_name] = d
+
+    for tree_name in sorted(TREES.keys()):
+        d = {}
+        d['preferred_fertility'] = parameters[idx]
+        idx += 1
+        d['preferred_humidity'] = parameters[idx]
+        idx += 1
+        d['preferred_temperature'] = parameters[idx]
+        idx += 1
+        d['pickiness'] = parameters[idx]
+        idx += 1
+        trees[tree_name] = d
+    assert(idx == len(parameters))
+    return weights, terrains, trees
 
 def main():
-    parameters = np.empty(len(TREES) * 4)
+    parameters = np.empty(len(TREES) * 4 + len(TERRAINS) * 3 + 3)
     bounds = []
-    for idx, tree_name in enumerate(TREES):
-        parameters[idx * 4 + 0] = TREES[tree_name]['preferred_fertility']
+
+    parameters[0] = 0.25
+    bounds.append((0, 1000))
+    parameters[1] = 0.25
+    bounds.append((0, 1000))
+    parameters[2] = 12.5
+    bounds.append((0, 1000))
+
+    idx = 3
+    for terrain_name in sorted(TERRAINS.keys()):
+        parameters[idx] = TERRAINS[terrain_name]['fertility']
+        idx += 1
         bounds.append((0, 1))
 
-        parameters[idx * 4 + 1] = TREES[tree_name]['preferred_humidity']
+        parameters[idx] = TERRAINS[terrain_name]['humidity']
+        idx += 1
         bounds.append((0, 1))
 
-        parameters[idx * 4 + 2] = TREES[tree_name]['preferred_temperature']
+        parameters[idx] = TERRAINS[terrain_name]['temperature']
+        idx += 1
+        bounds.append((223, 343.15))
+
+    for tree_name in sorted(TREES.keys()):
+        parameters[idx] = TREES[tree_name]['preferred_fertility']
+        idx += 1
+        bounds.append((0, 1))
+
+        parameters[idx] = TREES[tree_name]['preferred_humidity']
+        idx += 1
+        bounds.append((0, 1))
+
+        parameters[idx] = TREES[tree_name]['preferred_temperature']
+        idx += 1
         # freezing cold to very hot
         bounds.append((223, 343.15))
 
-        parameters[idx * 4 + 3] = TREES[tree_name]['pickiness']
+        parameters[idx] = TREES[tree_name]['pickiness']
+        idx += 1
         bounds.append((0, 1))
+    assert(idx == len(parameters))
 
     def minimize(params):
-        return difference(parameters_to_dictionary(params))
+        weights, terrains, trees = parameters_to_dictionary(params)
+        return difference(weights, terrains, trees)
 
     # final = scipy.optimize.fmin(minimize, parameters)
-    # final = scipy.optimize.fmin_l_bfgs_b(
-            # minimize,
-            # parameters,
-            # approx_grad = True,
-            # bounds = bounds)[0]
-    final = scipy.optimize.differential_evolution(
-            minimize, bounds).x
-    final_dictionary = parameters_to_dictionary(final)
-    json.dump(final_dictionary, open("final_parameters.json", "w"), indent=4)
+    result = scipy.optimize.fmin_l_bfgs_b(
+            minimize,
+            parameters,
+            approx_grad = True,
+            bounds = bounds,
+            maxfun = 1000000,
+            maxiter = 1000000
+            )
+    print "#sirver result: %r\n" % (result,)
+    final = result[0]
+    # final = scipy.optimize.minimize(
+            # minimize, parameters, bounds=bounds).x
+    # final = scipy.optimize.differential_evolution(
+            # minimize, bounds, popsize=25).x
+    final_weights, final_terrains, final_trees = parameters_to_dictionary(final)
+    json.dump(final_terrains, open("final_terrains.json", "w"), indent=4)
+    json.dump(final_trees, open("final_trees.json", "w"), indent=4)
+    json.dump(final_weights.tolist(), open("final_weights.json", "w"), indent=4)
+    print difference(final_weights, final_terrains, final_trees, verbose=True)
 
-    print difference(final_dictionary, verbose=True)
+def verify():
+    final_weights = json.load(open('optimize/final_weights.json', 'r'))
+    final_terrains = json.load(open('optimize/final_terrains.json', 'r'))
+    final_trees = json.load(open('optimize/final_trees.json', 'r'))
+
+    print difference(final_weights, final_terrains, final_trees, verbose=True)
 
 if __name__ == '__main__':
     main()
