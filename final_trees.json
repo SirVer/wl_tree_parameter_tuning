@@ -1,134 +1,134 @@
 {
     "palm_borassus": {
-        "pickiness": 0.20863977060259281, 
-        "preferred_temperature": 316.80346924553027, 
-        "preferred_fertility": 0.61357327995957489, 
-        "preferred_humidity": 0.5746892336062468
+        "pickiness": 0.54267541248001672, 
+        "preferred_temperature": 312.12514766707613, 
+        "preferred_fertility": 0.24489562637623052, 
+        "preferred_humidity": 0.56274510555621171
     }, 
     "umbrella_green": {
-        "pickiness": 0.4668949526418863, 
-        "preferred_temperature": 308.35114946757039, 
-        "preferred_fertility": 0.59887243034086945, 
-        "preferred_humidity": 0.6000959718000386
+        "pickiness": 0.87535472470354003, 
+        "preferred_temperature": 310.51132367138973, 
+        "preferred_fertility": 0.32389405018372797, 
+        "preferred_humidity": 0.32957171648974837
     }, 
     "spruce": {
-        "pickiness": 0.45479824721290968, 
-        "preferred_temperature": 284.62936592532606, 
-        "preferred_fertility": 0.61838024864363539, 
-        "preferred_humidity": 0.41421686023915666
+        "pickiness": 0.58967388451703762, 
+        "preferred_temperature": 292.74350620988707, 
+        "preferred_fertility": 0.44275951351764303, 
+        "preferred_humidity": 0.61529501977615531
     }, 
     "palm_roystonea": {
-        "pickiness": 0.52492378995489908, 
-        "preferred_temperature": 311.91551373490893, 
-        "preferred_fertility": 0.61808942084918672, 
-        "preferred_humidity": 0.50982306673555
+        "pickiness": 0.52936449638322058, 
+        "preferred_temperature": 304.83556886356092, 
+        "preferred_fertility": 0.1949366631836775, 
+        "preferred_humidity": 0.7181862314395816
     }, 
     "maple": {
-        "pickiness": 0.38845027420758543, 
-        "preferred_temperature": 291.39461669992306, 
-        "preferred_fertility": 0.61730946021554067, 
-        "preferred_humidity": 0.4291175476677796
+        "pickiness": 0.4914243068268116, 
+        "preferred_temperature": 287.08237775107762, 
+        "preferred_fertility": 0.25649980531413097, 
+        "preferred_humidity": 0.78730760686377821
     }, 
     "mushroom_dark": {
-        "pickiness": 0.19918639625501841, 
-        "preferred_temperature": 311.93822272127233, 
-        "preferred_fertility": 0.59979673334470174, 
-        "preferred_humidity": 0.45679193123921052
+        "pickiness": 0.84637961601374756, 
+        "preferred_temperature": 309.42487291970855, 
+        "preferred_fertility": 0.35114518577825204, 
+        "preferred_humidity": 0.29869955897506961
     }, 
     "liana": {
-        "pickiness": 0.44354521596751573, 
-        "preferred_temperature": 308.51690519146285, 
-        "preferred_fertility": 0.59295303832207347, 
-        "preferred_humidity": 0.51734578229619665
+        "pickiness": 0.86151023238517344, 
+        "preferred_temperature": 306.84100508116637, 
+        "preferred_fertility": 0.31239027089344407, 
+        "preferred_humidity": 0.35031481816178961
     }, 
     "twine": {
-        "pickiness": 0.067735006242694282, 
-        "preferred_temperature": 309.58355932352481, 
-        "preferred_fertility": 0.59535759025798407, 
-        "preferred_humidity": 0.88847664258202386
+        "pickiness": 0.82449455374241609, 
+        "preferred_temperature": 315.3300699009219, 
+        "preferred_fertility": 0.28483108808181667, 
+        "preferred_humidity": 0.34569366631444903
     }, 
     "oak": {
-        "pickiness": 0.30509493318438358, 
-        "preferred_temperature": 288.89505365326539, 
-        "preferred_fertility": 0.62433724069847174, 
-        "preferred_humidity": 0.55931915252604147
+        "pickiness": 0.59052376522124506, 
+        "preferred_temperature": 294.10408393399462, 
+        "preferred_fertility": 0.33114978886085622, 
+        "preferred_humidity": 0.721922215809505
     }, 
     "palm_coconut": {
-        "pickiness": 0.0, 
-        "preferred_temperature": 313.12654652142584, 
-        "preferred_fertility": 0.61268373749338589, 
-        "preferred_humidity": 0.50782319749611926
+        "pickiness": 0.50649807217854759, 
+        "preferred_temperature": 315.01192657773601, 
+        "preferred_fertility": 0.21429551845213668, 
+        "preferred_humidity": 0.56856538495343112
     }, 
     "rowan": {
-        "pickiness": 0.0, 
-        "preferred_temperature": 297.40378892046158, 
-        "preferred_fertility": 0.62274739221936404, 
-        "preferred_humidity": 0.54816646965602867
+        "pickiness": 0.48945390031487623, 
+        "preferred_temperature": 294.59166485023684, 
+        "preferred_fertility": 0.33111426545231115, 
+        "preferred_humidity": 0.74201972248788728
     }, 
     "palm_date": {
-        "pickiness": 0.18237955963243008, 
-        "preferred_temperature": 316.93126742589328, 
-        "preferred_fertility": 0.61346996942362164, 
-        "preferred_humidity": 0.57178582374845344
+        "pickiness": 0.53647728188312771, 
+        "preferred_temperature": 311.6086872522219, 
+        "preferred_fertility": 0.24221393314943546, 
+        "preferred_humidity": 0.55977490370368566
     }, 
     "aspen": {
-        "pickiness": 0.44984606446003106, 
-        "preferred_temperature": 290.55544524320931, 
-        "preferred_fertility": 0.62222016590068729, 
-        "preferred_humidity": 0.59561726988061026
+        "pickiness": 0.59843914180773927, 
+        "preferred_temperature": 283.81248780942167, 
+        "preferred_fertility": 0.33588939650946081, 
+        "preferred_humidity": 0.70557470200287675
     }, 
     "palm_oil": {
-        "pickiness": 0.43374078804283739, 
-        "preferred_temperature": 309.0392595542412, 
-        "preferred_fertility": 0.62079110796467685, 
-        "preferred_humidity": 0.64929385786563165
+        "pickiness": 0.59177154775649499, 
+        "preferred_temperature": 300.3652506361999, 
+        "preferred_fertility": 0.34545960943365628, 
+        "preferred_humidity": 0.65223396993513105
     }, 
     "mushroom_green": {
-        "pickiness": 0.49598669854920824, 
-        "preferred_temperature": 310.38550068242529, 
-        "preferred_fertility": 0.59904749385553491, 
-        "preferred_humidity": 0.61351698580439906
+        "pickiness": 0.88139960431928877, 
+        "preferred_temperature": 310.84256042489619, 
+        "preferred_fertility": 0.32094588183657252, 
+        "preferred_humidity": 0.32583735421559396
     }, 
     "alder": {
-        "pickiness": 0.86580725010436721, 
-        "preferred_temperature": 292.14881385925605, 
-        "preferred_fertility": 0.60620742662002625, 
-        "preferred_humidity": 0.43727584937233061
+        "pickiness": 0.65664594705489987, 
+        "preferred_temperature": 288.52017999565811, 
+        "preferred_fertility": 0.25549931629360256, 
+        "preferred_humidity": 0.47306825150674514
     }, 
     "mushroom_red": {
-        "pickiness": 0.3742029364797142, 
-        "preferred_temperature": 307.28515140466851, 
-        "preferred_fertility": 0.59841548590746629, 
-        "preferred_humidity": 0.83199372832197571
+        "pickiness": 0.84727340115725847, 
+        "preferred_temperature": 308.87244819948864, 
+        "preferred_fertility": 0.30300445222969019, 
+        "preferred_humidity": 0.37172291715567279
     }, 
     "birch": {
-        "pickiness": 0.51347374424315639, 
-        "preferred_temperature": 291.44961360955193, 
-        "preferred_fertility": 0.61895186892371656, 
-        "preferred_humidity": 0.4163282142136166
+        "pickiness": 0.62135485759566311, 
+        "preferred_temperature": 291.12651445601364, 
+        "preferred_fertility": 0.48649561495584542, 
+        "preferred_humidity": 0.65106293118084879
     }, 
     "beech": {
-        "pickiness": 0.1001942381020319, 
-        "preferred_temperature": 291.92139262314373, 
-        "preferred_fertility": 0.62513722924369286, 
-        "preferred_humidity": 0.48016700674029145
+        "pickiness": 0.54841250257531871, 
+        "preferred_temperature": 300.14508337738721, 
+        "preferred_fertility": 0.38542065815662707, 
+        "preferred_humidity": 0.77507112831207114
     }, 
     "umbrella_red": {
-        "pickiness": 0.72235733271918257, 
-        "preferred_temperature": 309.31588729290274, 
-        "preferred_fertility": 0.59698967286831106, 
-        "preferred_humidity": 0.69523265484598595
+        "pickiness": 0.89855557884303605, 
+        "preferred_temperature": 311.2830599026309, 
+        "preferred_fertility": 0.29388526960556194, 
+        "preferred_humidity": 0.31272563185253022
     }, 
     "larch": {
-        "pickiness": 0.0, 
-        "preferred_temperature": 293.13111996812063, 
-        "preferred_fertility": 0.62325608280140987, 
-        "preferred_humidity": 0.53692512749104759
+        "pickiness": 0.49942687492456173, 
+        "preferred_temperature": 295.86828891510459, 
+        "preferred_fertility": 0.34780112905399008, 
+        "preferred_humidity": 0.7478695149543767
     }, 
     "cirrus": {
-        "pickiness": 0.51952048706726595, 
-        "preferred_temperature": 308.06974528147379, 
-        "preferred_fertility": 0.59851288754883469, 
-        "preferred_humidity": 0.62314578356245109
+        "pickiness": 0.88315509532524683, 
+        "preferred_temperature": 310.49936985776878, 
+        "preferred_fertility": 0.31490614339540746, 
+        "preferred_humidity": 0.33093169701763475
     }
 }

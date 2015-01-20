@@ -1,307 +1,307 @@
 {
     "mountain2": {
-        "fertility": 0.20760202778374151, 
-        "temperature": 303.00075183706946, 
-        "humidity": 0.013347370767229121
+        "fertility": 0.99483988816595148, 
+        "temperature": 303.42972829646413, 
+        "humidity": 0.36724469817275668
     }, 
     "mountain3": {
-        "fertility": 0.20760241415963207, 
-        "temperature": 303.00075351595626, 
-        "humidity": 0.013347613326397764
+        "fertility": 0.99554973691737925, 
+        "temperature": 303.42994321508786, 
+        "humidity": 0.36911137784238873
     }, 
     "mountain1": {
-        "fertility": 0.2076026411443542, 
-        "temperature": 303.00075161466356, 
-        "humidity": 0.013348091427177047
+        "fertility": 0.9955591737548094, 
+        "temperature": 303.43073881374357, 
+        "humidity": 0.3691356727889481
     }, 
     "meadow": {
-        "fertility": 0.61864069723980031, 
-        "temperature": 305.96782188352364, 
-        "humidity": 0.55223527839762054
+        "fertility": 0.28982229496468942, 
+        "temperature": 305.07841308001815, 
+        "humidity": 0.66409487876828999
     }, 
     "mountain4": {
-        "fertility": 0.20760181626071336, 
-        "temperature": 303.00075353146883, 
-        "humidity": 0.01334826251060923
+        "fertility": 0.99539803013386874, 
+        "temperature": 303.42934087733249, 
+        "humidity": 0.36877037568728566
     }, 
     "lava-stone1": {
         "fertility": 0.98999999999999999, 
-        "temperature": 343.14999999999998, 
-        "humidity": 0.0
+        "temperature": 1273.0, 
+        "humidity": 9.9999999999999998e-17
     }, 
     "desert_water": {
         "fertility": 0.98999999999999999, 
         "temperature": 308.0, 
-        "humidity": 1.0
+        "humidity": 0.99999999999999989
     }, 
     "mountainmeadow": {
-        "fertility": 0.62879043517431488, 
-        "temperature": 306.14547262193571, 
-        "humidity": 0.48444120784674377
+        "fertility": 0.39411986912974672, 
+        "temperature": 289.36932830392055, 
+        "humidity": 0.85111697807847664
     }, 
     "wasteland_water": {
         "fertility": 0.80000000000000004, 
         "temperature": 313.0, 
-        "humidity": 1.0
+        "humidity": 0.99999999999999989
     }, 
     "wiese4": {
-        "fertility": 0.6194215000633122, 
-        "temperature": 291.52668761637807, 
-        "humidity": 0.48835283519898282
+        "fertility": 0.41570129413077317, 
+        "temperature": 288.58389722412585, 
+        "humidity": 0.67472017740529411
     }, 
     "schnee": {
-        "fertility": 0.0, 
+        "fertility": 9.9999999999999998e-17, 
         "temperature": 273.0, 
-        "humidity": 1.0
+        "humidity": 0.99999999999999989
     }, 
     "taiga": {
-        "fertility": 0.61110670866465067, 
-        "temperature": 282.69569431366762, 
-        "humidity": 0.76465356318835465
+        "fertility": 0.16382912093990756, 
+        "temperature": 285.35526221552516, 
+        "humidity": 0.48486236876174976
     }, 
     "ice": {
-        "fertility": 0.60280581026127178, 
-        "temperature": 243.00402028261851, 
-        "humidity": 0.60924708292629137
+        "fertility": 0.41963058218715021, 
+        "temperature": 241.18389899353673, 
+        "humidity": 0.41922543451566474
     }, 
     "wasser": {
         "fertility": 0.25, 
         "temperature": 293.0, 
-        "humidity": 1.0
+        "humidity": 0.99999999999999989
     }, 
     "wasteland_mountain4": {
-        "fertility": 0.56961682724639484, 
-        "temperature": 307.99449036677004, 
-        "humidity": 0.83652872571681014
+        "fertility": 0.50532858192033259, 
+        "temperature": 309.23137655560333, 
+        "humidity": 0.43430890944898498
     }, 
     "highmountainmeadow": {
-        "fertility": 0.63427481092551519, 
-        "temperature": 301.55787751743981, 
-        "humidity": 0.23048705008773948
+        "fertility": 0.58747114224515407, 
+        "temperature": 295.28805163693715, 
+        "humidity": 0.96636799120338213
     }, 
     "tundra3": {
-        "fertility": 0.62262887502646458, 
-        "temperature": 282.05514618682554, 
-        "humidity": 0.50406395829767481
+        "fertility": 0.39949724244349072, 
+        "temperature": 291.97891709336449, 
+        "humidity": 0.71392329660321152
     }, 
     "bergwiese": {
-        "fertility": 0.60996836961628587, 
-        "temperature": 288.319559084731, 
-        "humidity": 0.30397278245330622
+        "fertility": 0.61550531961182953, 
+        "temperature": 289.05001901926897, 
+        "humidity": 0.51128431681792141
     }, 
     "wasteland_mountain3": {
-        "fertility": 0.56965222499935164, 
-        "temperature": 307.99449087838394, 
-        "humidity": 0.8365706805167944
+        "fertility": 0.50532910869111358, 
+        "temperature": 309.2313908535491, 
+        "humidity": 0.43430953848524012
     }, 
     "wasteland_mountain1": {
-        "fertility": 0.56977579790152411, 
-        "temperature": 307.99278763984, 
-        "humidity": 0.74227121351420988
+        "fertility": 0.4942960101430538, 
+        "temperature": 305.47980607787952, 
+        "humidity": 0.43741264859131379
     }, 
     "winter_water": {
         "fertility": 0.40000000000000002, 
         "temperature": 273.0, 
-        "humidity": 1.0
+        "humidity": 0.99999999999999989
     }, 
     "wiese1": {
-        "fertility": 0.61376471548306355, 
-        "temperature": 291.89916713160164, 
-        "humidity": 0.32295914597150266
+        "fertility": 0.53191138330107279, 
+        "temperature": 300.04278317924405, 
+        "humidity": 0.55340250282816961
     }, 
     "hardground4": {
-        "fertility": 0.59985090483733405, 
-        "temperature": 310.47181267003037, 
-        "humidity": 0.67636404295817854
+        "fertility": 0.31054473740033578, 
+        "temperature": 312.2828410320538, 
+        "humidity": 0.31525755144085948
     }, 
     "wiese3": {
-        "fertility": 0.62066329391556951, 
-        "temperature": 291.46727289510932, 
-        "humidity": 0.44498149071212606
+        "fertility": 0.41316511937935013, 
+        "temperature": 294.08241457107198, 
+        "humidity": 0.67113553507660639
     }, 
     "wiese2": {
-        "fertility": 0.62112769763523301, 
-        "temperature": 291.18835661918575, 
-        "humidity": 0.4158923257843673
+        "fertility": 0.42867491634505633, 
+        "temperature": 295.65369623095955, 
+        "humidity": 0.68188133706990839
     }, 
     "hardground1": {
-        "fertility": 0.59636398410979674, 
-        "temperature": 309.64742349670621, 
-        "humidity": 0.56683081922422873
+        "fertility": 0.33276290074784548, 
+        "temperature": 309.19891895863259, 
+        "humidity": 0.33690034399837648
     }, 
     "snow": {
-        "fertility": 0.61060377016044365, 
-        "temperature": 263.83520122236911, 
-        "humidity": 0.66604933896574958
+        "fertility": 0.4755944578602016, 
+        "temperature": 255.71533125102573, 
+        "humidity": 0.67569418221390831
     }, 
     "hardground3": {
-        "fertility": 0.59764880225964001, 
-        "temperature": 310.0035336729033, 
-        "humidity": 0.6592461248609609
+        "fertility": 0.30902388622783256, 
+        "temperature": 311.4313401428405, 
+        "humidity": 0.31789599269051261
     }, 
     "hardground2": {
-        "fertility": 0.59658143713800993, 
-        "temperature": 309.59320338096791, 
-        "humidity": 0.63811886413707009
+        "fertility": 0.30859538499363437, 
+        "temperature": 309.87872943866665, 
+        "humidity": 0.31851348617841185
     }, 
     "berg4": {
-        "fertility": 0.59788945591791764, 
-        "temperature": 283.00360719240138, 
-        "humidity": 0.12897532043082452
+        "fertility": 0.67261898072511717, 
+        "temperature": 281.41200738401443, 
+        "humidity": 0.19973909047983246
     }, 
     "berg3": {
-        "fertility": 0.59788945456252396, 
-        "temperature": 283.00361167022044, 
-        "humidity": 0.12897528931474214
+        "fertility": 0.67259046087670449, 
+        "temperature": 281.41196619670609, 
+        "humidity": 0.19972412128499525
     }, 
     "berg2": {
-        "fertility": 0.59780610236056431, 
-        "temperature": 288.01718479318379, 
-        "humidity": 0.1314930034273217
+        "fertility": 0.67416621022233836, 
+        "temperature": 286.22963024142905, 
+        "humidity": 0.19387388774216724
     }, 
     "berg1": {
-        "fertility": 0.59774482269602525, 
-        "temperature": 288.01675369863534, 
-        "humidity": 0.13434116887530245
+        "fertility": 0.90073346602648985, 
+        "temperature": 286.5853971152747, 
+        "humidity": 0.392290548702316
     }, 
     "winter_mountain1": {
-        "fertility": 0.59920524221313531, 
-        "temperature": 232.99138332550513, 
-        "humidity": 0.82663795291507791
+        "fertility": 0.64095166379264268, 
+        "temperature": 234.3236440452477, 
+        "humidity": 0.353894295696628
     }, 
     "winter_mountain3": {
-        "fertility": 0.59920470038021778, 
-        "temperature": 232.99138337038295, 
-        "humidity": 0.82663806664711181
+        "fertility": 0.64096302130057681, 
+        "temperature": 234.32370923956316, 
+        "humidity": 0.35386704652440848
     }, 
     "winter_mountain2": {
-        "fertility": 0.59920251043095385, 
-        "temperature": 232.99138511500053, 
-        "humidity": 0.82663994799135065
+        "fertility": 0.64097548376370639, 
+        "temperature": 234.32036692949509, 
+        "humidity": 0.35388395206559686
     }, 
     "steppe": {
-        "fertility": 0.62290917236139554, 
-        "temperature": 302.70605457878321, 
-        "humidity": 0.94391776137562711
+        "fertility": 0.15303469813105364, 
+        "temperature": 295.73278633026462, 
+        "humidity": 0.89597247873747632
     }, 
     "drysoil": {
-        "fertility": 0.60419128874526662, 
-        "temperature": 318.12569563307875, 
-        "humidity": 0.76241062715633001
+        "fertility": 0.24996290818869515, 
+        "temperature": 322.57200571542654, 
+        "humidity": 0.33221932657651621
     }, 
     "sumpf": {
-        "fertility": 0.60610330118995237, 
-        "temperature": 290.28481028979473, 
-        "humidity": 0.43672155078137198
+        "fertility": 0.25499952877430737, 
+        "temperature": 289.89394318611949, 
+        "humidity": 0.47310737388281437
     }, 
     "steppe_kahl": {
-        "fertility": 0.59808307956152262, 
-        "temperature": 308.02781779691833, 
-        "humidity": 0.092457591675719195
+        "fertility": 0.98842836360535302, 
+        "temperature": 308.05534629938688, 
+        "humidity": 0.47595742923029816
     }, 
     "desert_beach": {
-        "fertility": 0.60410250208155913, 
-        "temperature": 314.33778642981616, 
-        "humidity": 0.40995438344133678
+        "fertility": 0.067762679294860309, 
+        "temperature": 329.25806053618618, 
+        "humidity": 0.45713638428482906
     }, 
     "tundra": {
-        "fertility": 0.61855059304800419, 
-        "temperature": 275.79924088829461, 
-        "humidity": 0.56743690902489974
+        "fertility": 0.46117587943158045, 
+        "temperature": 285.15816824963719, 
+        "humidity": 0.77781437710174905
     }, 
     "lava": {
         "fertility": 0.98999999999999999, 
-        "temperature": 343.14999999999998, 
-        "humidity": 0.0
+        "temperature": 1273.0, 
+        "humidity": 9.9999999999999998e-17
     }, 
     "ice_floes2": {
-        "fertility": 0.59647583604888299, 
-        "temperature": 267.85679192434714, 
-        "humidity": 0.79360327501698646
+        "fertility": 0.29399226894281316, 
+        "temperature": 265.80528666077464, 
+        "humidity": 0.13462161525263067
     }, 
     "hardlava": {
-        "fertility": 0.58759760513377801, 
-        "temperature": 321.92250306764009, 
-        "humidity": 0.93064685088349441
+        "fertility": 0.23705760252500771, 
+        "temperature": 319.00977864170756, 
+        "humidity": 0.35447880224872441
     }, 
     "strand": {
-        "fertility": 0.59588660341605737, 
-        "temperature": 298.02052244261978, 
-        "humidity": 0.27792651143972741
+        "fertility": 0.58492011270054045, 
+        "temperature": 295.31687025892853, 
+        "humidity": 0.152564445518208
     }, 
     "desert_steppe": {
-        "fertility": 0.61623048065580655, 
-        "temperature": 316.47700572576616, 
-        "humidity": 0.82067961207638829
+        "fertility": 0.40543024435718211, 
+        "temperature": 307.66693414903386, 
+        "humidity": 0.50785131521278204
     }, 
     "desert4": {
-        "fertility": 0.5987770630984971, 
-        "temperature": 318.16076094715447, 
-        "humidity": 0.7938485509020996
+        "fertility": 0.26285391621490406, 
+        "temperature": 318.95927963394809, 
+        "humidity": 0.19850680766512677
     }, 
     "desert2": {
-        "fertility": 0.59064572105936086, 
-        "temperature": 318.08314303947594, 
-        "humidity": 0.78964108067891092
+        "fertility": 0.22973365655463399, 
+        "temperature": 318.08427760835616, 
+        "humidity": 0.014328787840514678
     }, 
     "desert3": {
-        "fertility": 0.5905269322205009, 
-        "temperature": 328.01499400580872, 
-        "humidity": 0.48219989730824153
+        "fertility": 0.028419096361354063, 
+        "temperature": 328.1229356910701, 
+        "humidity": 0.073760305337428986
     }, 
     "desert1": {
-        "fertility": 0.59150129323607092, 
-        "temperature": 318.09396034538315, 
-        "humidity": 0.95409980545947903
+        "fertility": 0.40660860612661509, 
+        "temperature": 317.94592510628115, 
+        "humidity": 0.026741512333483181
     }, 
     "ashes2": {
-        "fertility": 0.58562666564115284, 
-        "temperature": 310.07260554883987, 
-        "humidity": 0.81520620465293769
+        "fertility": 0.22898571164372822, 
+        "temperature": 306.24553497496134, 
+        "humidity": 0.31400675041069881
     }, 
     "wasteland_beach": {
-        "fertility": 0.6043520674262377, 
-        "temperature": 308.19301021434268, 
-        "humidity": 0.03649260529274307
+        "fertility": 0.41946731913025403, 
+        "temperature": 302.78152301395431, 
+        "humidity": 0.25378089694315337
     }, 
     "ice_floes": {
-        "fertility": 0.59650331568674375, 
-        "temperature": 267.85679059937627, 
-        "humidity": 0.7936047846546328
+        "fertility": 0.29392443481224101, 
+        "temperature": 265.80526108661786, 
+        "humidity": 0.13459817136515448
     }, 
     "tundra2": {
-        "fertility": 0.6235461207128391, 
-        "temperature": 278.71143693178755, 
-        "humidity": 0.46507313587558802
+        "fertility": 0.38729356301371143, 
+        "temperature": 299.65831265959122, 
+        "humidity": 0.71243181397420374
     }, 
     "lava-stone2": {
         "fertility": 0.98999999999999999, 
-        "temperature": 343.14999999999998, 
-        "humidity": 0.0
+        "temperature": 1273.0, 
+        "humidity": 9.9999999999999998e-17
     }, 
     "winter_mountain4": {
-        "fertility": 0.59920324555502869, 
-        "temperature": 232.9913803944184, 
-        "humidity": 0.82663935003630284
+        "fertility": 0.64096295347399923, 
+        "temperature": 234.32284033138464, 
+        "humidity": 0.35387628237099111
     }, 
     "ashes": {
-        "fertility": 0.58907042429277445, 
-        "temperature": 309.67409613003031, 
-        "humidity": 0.71250940233189775
+        "fertility": 0.25631387504753977, 
+        "temperature": 308.50931307699597, 
+        "humidity": 0.31736633817980997
     }, 
     "wasteland_mountain2": {
-        "fertility": 0.56961441242184685, 
-        "temperature": 307.99392576301096, 
-        "humidity": 0.80986690869302524
+        "fertility": 0.50211854383693189, 
+        "temperature": 308.11414726442104, 
+        "humidity": 0.43590895148164582
     }, 
     "tundra_taiga": {
-        "fertility": 0.61396630494767412, 
-        "temperature": 277.89061945364074, 
-        "humidity": 0.67264307594468931
+        "fertility": 0.25232407403911222, 
+        "temperature": 290.59652759132916, 
+        "humidity": 0.52019070699260228
     }, 
     "winter_beach": {
-        "fertility": 0.60512370626134837, 
-        "temperature": 258.18528016402854, 
-        "humidity": 0.71081855291178164
+        "fertility": 0.35517827723739792, 
+        "temperature": 243.04482604455663, 
+        "humidity": 0.52048324144504288
     }
 }

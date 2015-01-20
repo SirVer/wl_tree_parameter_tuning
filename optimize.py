@@ -18,18 +18,22 @@ TRUTH = json.load(open('./truth_table.json', 'r'))
 TERRAINS = json.load(open('./terrains.json', 'r'))
 TREES = json.load(open('./trees.json', 'r'))
 
+
+SMALL = 1e-16
+
 pow2 = lambda x: x * x
+
 
 def probability_to_grow(weights, terrain, tree):
     """This reproduces the model from terrain_affinity.cc."""
-    sigma_fertility = (1. - tree['pickiness']) * weights[0] + 1e-2
-    sigma_humidity = (1. - tree['pickiness']) * weights[1] + 1e-2
-    sigma_temperature = (1. - tree['pickiness']) * weights[2] + 1e-1
+    sigma_fertility = (1. - tree['pickiness'])
+    sigma_humidity = (1. - tree['pickiness'])
+    sigma_temperature = (1. - tree['pickiness'])
 
-    return math.exp(
-        -pow2(tree['preferred_fertility'] - terrain['fertility']) / (2 * pow2(sigma_fertility)) -
-        pow2(tree['preferred_humidity'] - terrain['humidity']) / (2 * pow2(sigma_humidity)) -
-        pow2(tree['preferred_temperature'] - terrain['temperature']) / (2 * pow2(sigma_temperature)))
+    return math.exp((
+        -pow2((tree['preferred_fertility'] - terrain['fertility']) / (weights[0] * sigma_fertility))
+        -pow2((tree['preferred_humidity'] - terrain['humidity']) / (weights[1] * sigma_humidity))
+        -pow2((tree['preferred_temperature'] - terrain['temperature']) / (weights[2] * sigma_temperature))) / 2)
 
 def difference(weights, terrains, trees, verbose=False):
     """Returns the squared differences of the probabilities in the
@@ -55,8 +59,8 @@ def difference(weights, terrains, trees, verbose=False):
 def parameters_to_dictionary(parameters):
     trees = {}
     terrains = {}
-    weights = parameters[:3]
     idx = 3
+    weights = parameters[:idx]
     for terrain_name in sorted(TERRAINS.keys()):
         d = {}
         d['fertility'] = parameters[idx]
@@ -86,34 +90,34 @@ def main():
     bounds = []
 
     parameters[0] = 0.25
-    bounds.append((0, 1000))
+    bounds.append((SMALL, 1000))
     parameters[1] = 0.25
-    bounds.append((0, 1000))
+    bounds.append((SMALL, 1000))
     parameters[2] = 12.5
-    bounds.append((0, 1000))
+    bounds.append((SMALL, 1000))
 
     idx = 3
     for terrain_name in sorted(TERRAINS.keys()):
         parameters[idx] = TERRAINS[terrain_name]['fertility']
         idx += 1
-        bounds.append((0, 1))
+        bounds.append((SMALL, 1 - SMALL))
 
         parameters[idx] = TERRAINS[terrain_name]['humidity']
         idx += 1
-        bounds.append((0, 1))
+        bounds.append((SMALL, 1 - SMALL))
 
         parameters[idx] = TERRAINS[terrain_name]['temperature']
         idx += 1
-        bounds.append((223, 343.15))
+        bounds.append((223, 1300.00))
 
     for tree_name in sorted(TREES.keys()):
         parameters[idx] = TREES[tree_name]['preferred_fertility']
         idx += 1
-        bounds.append((0, 1))
+        bounds.append((SMALL, 1 - SMALL))
 
         parameters[idx] = TREES[tree_name]['preferred_humidity']
         idx += 1
-        bounds.append((0, 1))
+        bounds.append((SMALL, 1 - SMALL))
 
         parameters[idx] = TREES[tree_name]['preferred_temperature']
         idx += 1
@@ -122,7 +126,7 @@ def main():
 
         parameters[idx] = TREES[tree_name]['pickiness']
         idx += 1
-        bounds.append((0, 1))
+        bounds.append((SMALL, 1 - SMALL))
     assert(idx == len(parameters))
 
     def minimize(params):
@@ -135,8 +139,8 @@ def main():
             parameters,
             approx_grad = True,
             bounds = bounds,
-            maxfun = 1000000,
-            maxiter = 1000000
+            maxfun = 15000000,
+            maxiter = 15000000
             )
     print "#sirver result: %r\n" % (result,)
     final = result[0]
